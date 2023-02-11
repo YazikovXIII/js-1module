@@ -357,3 +357,215 @@
 // console.log(checkStorage(200, 150))
 // checkStorage(150, 180)
 // console.log(checkStorage(150, 180))
+
+//26
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message;
+//     message = password === ADMIN_PASSWORD ? "Access is allowed" : "Access denied, wrong password!";
+//   return message;
+// }
+// checkPassword("jqueryismyjam")
+// console.log(checkPassword("jqueryismyjam"));
+
+// checkPassword("angul4r1sl1f3")
+// console.log(checkPassword("angul4r1sl1f3"));
+
+// checkPassword("r3actsux")
+// console.log(checkPassword("r3actsux"));
+
+//27
+// function getSubscriptionPrice(type) {
+//   let price;
+
+//  switch (type) {
+//     case "starter":
+//       price = 0;
+//       break;
+//     case 'professional':
+//       price = 20;
+//       break;
+//     case 'organization':
+//       price = 50;
+//       break;
+//   }
+//   return price;
+// }
+// getSubscriptionPrice("professional")
+// getSubscriptionPrice("organization")
+// getSubscriptionPrice("starter")
+// console.log(getSubscriptionPrice("professional"));
+// console.log(getSubscriptionPrice("organization"));
+// console.log(getSubscriptionPrice("starter"));
+
+//28
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message;
+
+//     switch (password) {
+//         case null:
+//             message = "Canceled by user!";
+//             break;
+//         case ADMIN_PASSWORD:
+//             message = "Welcome!"
+//             break;
+//         default:
+//             message = "Access denied, wrong password!"
+//     }
+//   return message;
+// }
+// checkPassword("mangohackzor")
+// console.log(checkPassword("mangohackzor"));
+// checkPassword(null)
+// console.log(checkPassword(null));
+// checkPassword("polyhax")
+// console.log(checkPassword("polyhax"));
+// checkPassword("jqueryismyjam")
+// console.log(checkPassword("jqueryismyjam"));
+
+//29
+// function getShippingCost(country) {
+//   let message;
+//   let price;
+//     switch (country) {
+//         case 'China':
+//             price = 100;
+//             message = `Shipping to ${country} will cost ${price} credits`
+//             break;
+//         case 'Chile':
+//             price = 250
+//             message = `Shipping to ${country} will cost ${price} credits`
+//             break;
+//         case 'Australia':
+//             price = 170;
+//             message = `Shipping to ${country} will cost ${price} credits`
+//             break;
+//         case 'Jamaica':
+//             price = 120;
+//             message = `Shipping to ${country} will cost ${price} credits`
+//             break;
+//         default:
+//             message = "Sorry, there is no delivery to your country"
+// }
+//   return message;
+// }
+// getShippingCost("Australia")
+// console.log(getShippingCost("Australia"));
+// getShippingCost("Germany")
+// console.log(getShippingCost("Germany"));
+// getShippingCost("China")
+// console.log(getShippingCost("China"));
+// getShippingCost("Chile")
+// console.log(getShippingCost("Chile"));
+// getShippingCost("Jamaica")
+// console.log(getShippingCost("Jamaica"));
+// getShippingCost("Sweden")
+// console.log(getShippingCost("Sweden"));
+
+//30
+// function getNameLength(name) {
+//   const message = `Name ${name} is ${name.length} characters long`;
+
+//   return message;
+// }
+// getNameLength("Poly")
+// console.log(getNameLength("Poly"));
+// getNameLength("Harambe")
+// console.log(getNameLength("Harambe"));
+// getNameLength("Billy")
+// console.log(getNameLength("Billy"));
+// getNameLength("Joe")
+// console.log(getNameLength("Joe"));
+
+//31
+// const courseTopic = "JavaScript essentials";
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic[courseTopic.length-1];
+// console.log(courseTopicLength);
+// console.log(firstElement);
+// console.log(lastElement);
+
+//32
+// function getSubstring(string, length) {
+//   const substring = string.slice(0, length);
+
+//   return substring;
+// }
+// getSubstring("Hello world", 3)
+// console.log(getSubstring("Hello world", 3));
+// getSubstring("Hello world", 6)
+// console.log(getSubstring("Hello world", 6));
+// getSubstring("Hello world", 8)
+// console.log(getSubstring("Hello world", 8));
+// getSubstring("Hello world", 11)
+// console.log(getSubstring("Hello world", 11));
+// getSubstring("Hello world", 0)
+// console.log(getSubstring("Hello world", 0));
+
+//33
+//  function formatMessage(message, maxLength) {
+
+//    let  result = message.length <= maxLength ? message : message.slice(0, maxLength) + '...';
+//    return result;
+//  }
+//  formatMessage("Curabitur ligula sapien", 16)
+//  console.log(formatMessage("Curabitur ligula sapien", 16));
+//  formatMessage("Curabitur ligula sapien", 23)
+//  console.log(formatMessage("Curabitur ligula sapien", 23));
+//  formatMessage("Vestibulum facilisis purus nec", 20)
+//  console.log(formatMessage("Vestibulum facilisis purus nec", 20));
+//  formatMessage("Vestibulum facilisis purus nec", 30)
+//  console.log(formatMessage("Vestibulum facilisis purus nec", 30));
+
+//34
+// function normalizeInput(input) {
+//   const normalizedInput = input.toLowerCase();
+
+//   return normalizedInput;
+// }
+// normalizeInput("Hello world")
+// console.log(normalizeInput("Hello world"));
+// normalizeInput("This ISN'T SpaM")
+// console.log(normalizeInput("This ISN'T SpaM"));
+// normalizeInput("Big SALE")
+// console.log(normalizeInput("Big SALE"));
+
+//35
+// function checkForName(fullName, name) {
+//  const result = fullName.includes(name);
+//   return result;
+// }
+// checkForName("Egor Kolbasov", "Egor");
+// console.log(checkForName("Egor Kolbasov", "Egor"));
+// checkForName("Egor Kolbasov", "egor");
+// console.log(checkForName("Egor Kolbasov", "egor"));
+// checkForName("Egor Kolbasov", "egOr");
+// console.log(checkForName("Egor Kolbasov", "egOr"));
+// checkForName("Egor Kolbasov", "Zhenya");
+// console.log(checkForName("Egor Kolbasov", "Zhenya"));
+// checkForName("Vadim Nekrasov", "Vadim");
+// console.log(checkForName("Vadim Nekrasov", "Vadim"));
+// checkForName("Vadim Nekrasov", "vadim")
+// console.log(checkForName("Vadim Nekrasov", "vadim"));
+// checkForName("Vadim Nekrasov", "Dima")
+// console.log(checkForName("Vadim Nekrasov", "Dima"));
+
+//36
+// function checkForSpam(message) {
+//   let result = message.toLowerCase().includes('spam') || message.toLowerCase().includes('sale');
+//   return result;
+// }
+// checkForSpam("Latest technology news");
+// console.log(checkForSpam("Latest technology news"));
+// checkForSpam("JavaScript weekly newsletter");
+// console.log(checkForSpam("JavaScript weekly newsletter"));
+// checkForSpam("Get best sale offers now!");
+// console.log(checkForSpam("Get best sale offers now!"));
+// checkForSpam("Amazing SalE, only tonight!")
+// console.log(checkForSpam("Amazing SalE, only tonight!"));
+// checkForSpam("Trust me, this is not a spam message");
+// console.log(checkForSpam("Trust me, this is not a spam message"));
+// checkForSpam("[SPAM] How to earn fast money?") 
+// console.log(checkForSpam("[SPAM] How to earn fast money?") );
