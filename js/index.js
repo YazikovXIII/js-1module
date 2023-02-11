@@ -70,9 +70,7 @@
 // function add(a, b, c) {
 // return a + b + c;
 // }
-
 // add(2, 5, 8); // 15
-
 // console.log(add(15, 27, 10));
 // console.log(add(10, 20, 30));
 // console.log(add(5, 10, 15));
@@ -150,7 +148,6 @@
 //15
 // function checkAge(age) {
 //   let message;
-
 //   if (age >= 18) {
 //     message = 'You are an adult';
 //   } else {
@@ -170,7 +167,6 @@
 //16
 // function checkStorage(available, ordered) {
 //   let message;
-
 //     if (available >= ordered) {
 //         message = 'Order is processed, our manager will contact you.'
 //     } else {
@@ -190,7 +186,6 @@
 // let b = 10;
 // let c = 15;
 // let d = 20;
-
 // a += 2;
 // b -= 4;
 // c *= 3;
@@ -204,7 +199,6 @@
 // function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 //     let message;
 //     let totalPrice = pricePerDroid * orderedQuantity
-
 //     if (totalPrice <= customerCredits) {
 //         message = `You ordered ${orderedQuantity} droids, you have ${customerCredits - totalPrice} credits left`
 //     } else {
@@ -227,7 +221,6 @@
 // function checkPassword(password) {
 //   const ADMIN_PASSWORD = 'jqueryismyjam';
 //   let message;
-
 //   if (password === null) {
 //     message =  'Canceled by user!';
 //   } else if (password === ADMIN_PASSWORD) {
@@ -235,7 +228,6 @@
 //   } else {
 //     message = 'Access denied, wrong password!';
 //   }
-
 //   return message;
 // }
 // checkPassword("mangohackzor")
@@ -466,7 +458,6 @@
 //30
 // function getNameLength(name) {
 //   const message = `Name ${name} is ${name.length} characters long`;
-
 //   return message;
 // }
 // getNameLength("Poly")
@@ -490,7 +481,6 @@
 //32
 // function getSubstring(string, length) {
 //   const substring = string.slice(0, length);
-
 //   return substring;
 // }
 // getSubstring("Hello world", 3)
@@ -506,7 +496,6 @@
 
 //33
 //  function formatMessage(message, maxLength) {
-
 //    let  result = message.length <= maxLength ? message : message.slice(0, maxLength) + '...';
 //    return result;
 //  }
