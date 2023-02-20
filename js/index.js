@@ -556,5 +556,5 @@
 // console.log(checkForSpam("Amazing SalE, only tonight!"));
 // checkForSpam("Trust me, this is not a spam message");
 // console.log(checkForSpam("Trust me, this is not a spam message"));
-// checkForSpam("[SPAM] How to earn fast money?") 
+// checkForSpam("[SPAM] How to earn fast money?")
 // console.log(checkForSpam("[SPAM] How to earn fast money?") );
