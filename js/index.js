@@ -3920,7 +3920,7 @@
 //   constructor({ email, accessLevel,}) {
 //     super(email);
 //       this.accessLevel = accessLevel;
-//       this.blacklistedEmails = [] 
+//       this.blacklistedEmails = []
 //     }
 //     blacklist(email) {
 //         this.blacklistedEmails.push(email)
@@ -3944,3 +3944,4 @@
 // console.log(mango.blacklistedEmails); // ["poly@mail.com"]
 // console.log(mango.isBlacklisted("mango@mail.com")); // false
 // console.log(mango.isBlacklisted("poly@mail.com")); // true
+
